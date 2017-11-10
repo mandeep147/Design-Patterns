@@ -3,19 +3,19 @@ package designPattern.abstractfactory;
 public class ShapeFactory extends AbstractFactory {
 	
 	   @Override
-	   public Shape getShape(String shapeType){
+	   public Shape getShape(String shape){
 	   
-	      if(shapeType == null){
+	      if(shape == null){
 	         return null;
 	      }		
 	      
-	      if(shapeType.equalsIgnoreCase("CIRCLE")){
+	      if(shape.equalsIgnoreCase("circle")){
 	         return new Circle();
 	         
-	      }else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+	      }else if(shape.equalsIgnoreCase("rectangle")){
 	         return new Rectangle();
 	         
-	      }else if(shapeType.equalsIgnoreCase("SQUARE")){
+	      }else if(shape.equalsIgnoreCase("square")){
 	         return new Square();
 	      }
 	      

@@ -14,13 +14,13 @@ public class ColorFactory extends AbstractFactory {
 	         return null;
 	      }		
 	      
-	      if(color.equalsIgnoreCase("RED")){
+	      if(color.equalsIgnoreCase("red")){
 	         return new Red();
 	         
-	      }else if(color.equalsIgnoreCase("GREEN")){
+	      }else if(color.equalsIgnoreCase("green")){
 	         return new Green();
 	         
-	      }else if(color.equalsIgnoreCase("BLUE")){
+	      }else if(color.equalsIgnoreCase("blue")){
 	         return new Blue();
 	      }
 	      
